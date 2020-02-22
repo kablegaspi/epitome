@@ -1,0 +1,59 @@
+body {
+  font-family: "Open Sans", sans-serif; }
+
+h1, h2, h3 {
+  font-family: "Raleway", cursive; 
+color: black;}
+
+h2 {
+  color: #3046C5; }
+
+header h2 {
+  color: #CEC8FF; }
+
+.site-footer {
+  background-color: black;
+  color: white;);
+  padding: 20px 0; 
+}
+
+.jumbotron {
+  MARGIN: 0;
+  padding: 30px;
+  background-color:white;
+  color: white; }
+
+.row-content {
+  padding: 50px 0;
+  min-height: 200px; }
+
+.navbar {
+  background-color: black; 
+  /*float: right !important;*/
+}
+/* .navbar-nav > li.navbar-right {
+  float: right !important; */
+}
+.carousel-caption {
+  background-color: rgba(0, 0, 0, 0.5); }
+
+
+
+#carouselButton {
+  position: absolute;
+  right: 0;
+  bottom: 0; }
+
+  .im-fluid{
+    height: 100px;
+    width: 100px;
+    align-items: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+  }
+  .carousel-item img {
+    max-height: 100vh; 
+    object-fit: cover;
+  }
