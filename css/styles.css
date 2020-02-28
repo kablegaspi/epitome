@@ -2,25 +2,24 @@ body {
   font-family: "Open Sans", sans-serif; }
 
 h1, h2, h3 {
-  font-family: "Raleway", cursive; 
-color: black;}
+  font-family: "Raleway", cursive;
+  color: black; }
 
 h2 {
-  color: #3046C5; }
+  color: goldenrod; }
 
 header h2 {
   color: #CEC8FF; }
 
 .site-footer {
   background-color: black;
-  color: white;);
-  padding: 20px 0; 
-}
+  padding: 20px 0;
+  color: white; }
 
 .jumbotron {
   MARGIN: 0;
   padding: 30px;
-  background-color:white;
+  background-color: white;
   color: white; }
 
 .row-content {
@@ -28,32 +27,70 @@ header h2 {
   min-height: 200px; }
 
 .navbar {
-  background-color: black; 
-  /*float: right !important;*/
-}
-/* .navbar-nav > li.navbar-right {
-  float: right !important; */
-}
+  background-color: black; }
+
 .carousel-caption {
-  background-color: rgba(0, 0, 0, 0.5); }
-
-
+  background-color: rgba(0, 0, 0, 0.212); }
 
 #carouselButton {
   position: absolute;
   right: 0;
   bottom: 0; }
 
-  .im-fluid{
-    height: 100px;
-    width: 100px;
-    align-items: center;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    
-  }
-  .carousel-item img {
-    max-height: 100vh; 
-    object-fit: cover;
-  }
+.im-fluid {
+  height: 100px;
+  width: 100px;
+  align-items: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto; }
+
+.carousel-item img {
+  max-height: 100vh;
+  object-fit: cover; }
+
+#iconButton a {
+  border: none;
+  /* Remove borders */
+  color: black;
+  /* White text */
+  padding: 12px 16px;
+  /* Some padding */
+  font-size: 16px;
+  /* Set a font size */
+  cursor: pointer;
+  /* Mouse pointer on hover */ }
+
+#iconButton a:hover {
+  color: goldenrod; }
+
+#thumb {
+  border: 1px solid #ddd;
+  /* Gray border */
+  border-radius: 4px;
+  /* Rounded border */
+  padding: 5px;
+  /* Some padding */
+  width: 300px;
+  /* Set a small width */ }
+
+#thumb:hover {
+  box-shadow: 0 0 2px 1px rgba(211, 157, 10, 0.678); }
+
+#bodyRow {
+  padding: 0%; }
+
+#bodyRow-height {
+  height: 70px;
+  text-align: center;
+  padding-top: 25px; }
+
+#bodyTitle {
+  background-color: black;
+  padding: 100px; }
+
+.card {
+  height: 350px; }
+
+.card:hover {
+  box-shadow: 0 0 2px 1px rgba(211, 157, 10, 0.678); }
