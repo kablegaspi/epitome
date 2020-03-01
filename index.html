@@ -22,36 +22,37 @@
     </head>
 
 <body>
-    <header class="jumbotron jumbotron-fluid">
-        <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    <a href="#"><img src="photos/logo.png" class="im-fluid" /></a>
+    <header class="jumbotron jumbotron-fluid" id="jumbo">
+        <div class="container-fluid pl-0" id="iconButton">
+            <div class="row no-gutters  mx-0" id="rowHead">
+                <div class="col col-m-6 px-0" id="miniIconCol">
+                    <a href="#"><img src="photos/epitome_logo_big.png" class="im-fluid" /></a>
                 </div>
+                <div class="col col-m-6 d-none d-sm-block p-5" id="miniIcon">
+                    <a class="btn float-right" id="topRow" href="#"><i class="fa fa-search fa-lg"></i></a>
+                    <a class="btn float-right" id="topRow" href="#"><i class="fa fa-heart-o fa-lg"></i></a>
+                    <a class="btn float-right" id="topRow" href="#"><i class="fa fa-shopping-cart fa-lg"></i></a>
+                    <a class="btn float-right" id="topRow" href="#"><i class="fa fa-user fa-lg"></i></a>
+                    </div>
             </div>
-            <div class="row">
-                <div class="col-12 text-center">
-                   <h3>Epitome Pieces</h3>
-                </div>
-            </div>
+            
         </div>
-        <div class="container-fluid" id="iconButton">
-            <div class="row no-gutters justify-content-end" >
-                <div class="col-12" ></div>
+        <!-- <div class="container-fluid" id="iconButton">
+            <div class="row no-gutters bg-dark" >
+                <div class="col-12 float-right justify-content-end bg-light" id="miniIcon">
                 <a class="btn" id="topRow" href="#"><i class="fa fa-search fa-lg"></i></a>
                 <a class="btn" id="topRow" href="#"><i class="fa fa-heart-o fa-lg"></i></a>
                 <a class="btn" id="topRow" href="#"><i class="fa fa-shopping-cart fa-lg"></i></a>
                 <a class="btn" id="topRow" href="#"><i class="fa fa-user fa-lg"></i></a>
                 </div>
             </div>
-        </div>
+        </div> -->
                    
-        </div>
         
     </header>
   
     <nav class="navbar navbar-expand-sm navbar-dark sticky-top">
-        <div class="container-fluid">
+        <div class="container-fluid pb-0">
             <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#nucampNavbar">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -78,9 +79,8 @@
           <div class="carousel-item active">
             <img class="d-block w-100" src="photos/carousel1.jpg" alt="First slide">
             <div class="carousel-caption d-none d-md-block">
-              <h5>Modern + Stylish</h5>
-              <p>Shop now</p>
-            </div>
+              <h5>We make your imagination a reality...</h5>
+              </div>
           </div>
           <div class="carousel-item">
             <img class="d-block w-100" src="photos/carousel2.jpg" alt="Second slide">
@@ -150,42 +150,153 @@
         </div>
     </div>
 <br/>
-    <div class="container">
-        <div class="row row-content align-items-center" id="bodyRow">
-            <div class="col-sm-4 col-md-3 mxy-0">
-                <div class="card">
-                    <img class="card-img-top" src="photos/chairs.jpg" alt="Chairs">
-                    <div class="card-body">
-                    <h5 class="card-title text-center">Chairs</h5>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-sm-4 col-md-3 mxy-0">
-                  <div class="card">
-                    <img class="card-img-top" src="photos/table.jpg" alt="tables">
-                    <div class="card-body">
-                    <h5 class="card-title text-center">Tables</h5>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-sm-4 col-md-3 mxy-0">
-                    <div class="card">
-                        <img class="card-img-top" src="photos/lights.jpg" alt="tables">
-                        <div class="card-body">
-                        <h5 class="card-title text-center">Lights</h5>
+
+<div class="container-fluid " id="jumbo">
+    <div class="row row-content w-100 no-gutters " id="bodyRow">
+        <div class="col-sm-4 col-md-4 mxy-0"    >
+            <h2 class="m-5" >How to?</h2>
+        </div>
+     
+
+    <img class="img-fluid " src="photos/steps.png" alt="Chairs">
+
+    </div>
+</div>
+
+
+
+<!--flipping cards-->
+    <div class="container-fluid bg-warning pb-0" id="jumbo">
+        <div class="row row-content w-100 no-gutters " id="bodyRow">
+            <div class="col-sm-4 col-md-4 mxy-0" id="bodyTitle2">
+                <h2 class="text-sm-right " >Customer's top pick</h2>
+            </div>
+            <div class="col-sm-2 col-md-2 mxy-0">
+                <div class="card-flip">
+                    <div class="flip">
+                        <div class="front">
+                            <!-- front content -->
+                            <div class="card">
+                            <img class="card-img-top" src="photos/chairs.jpg" alt="Chairs">
+                            <div class="card-block">
+                               
+                            </div>
                         </div>
                     </div>
-                  </div>
-                  <div class="col-sm-4 col-md-3 mxy-0">
-                    <div class="card">
-                        <img class="card-img-top" src="photos/sofa.jpg" alt="tables">
-                        <div class="card-body">
-                        <h5 class="card-title text-center">Sofas</h5>
+                    <div class="back">
+                        <!-- back content -->
+                        <div class="card">
+                          <div class="card-block text-white bg-dark">
+                              <br/><br/>
+                            <h4 class="card-title text-center">Silya</h4>
+                            <h6 class="card-subtitle text-muted text-center">Style # 106</h6><br/>
+                          </div>
+                            <div class="card-block text-dark">
+                                <br/>
+                            <p class="card-text text-center">Modern industrial chair perfect for office or as a dining chair.</p><br/>
+                            <a href="#" class="btn btn-warning float-right">View in Store</a>
+                          </div>
                         </div>
                     </div>
-                  </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-2 col-md-2 mxy-0">
+            <div class="card-flip">
+                <div class="flip">
+                    <div class="front">
+                        <!-- front content -->
+                        <div class="card">
+                        <img class="card-img-top" src="photos/table.jpg" alt="Chairs">
+                        <div class="card-block">
+                           
+                        </div>
+                    </div>
+                </div>
+                <div class="back">
+                    <!-- back content -->
+                    <div class="card">
+                      <div class="card-block text-white bg-dark">
+                          <br/><br/>
+                        <h4 class="card-title text-center">Mesa</h4>
+                        <h6 class="card-subtitle text-muted text-center">Style # 408</h6><br/>
+                      </div>
+                        <div class="card-block text-dark">
+                            <br/>
+                        <p class="card-text text-center">Modern boho chic table that works as side table.</p><br/>
+                        <a href="#" class="btn btn-warning float-right">View in Store</a>
+                      </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-2 col-md-2 mxy-0">
+            <div class="card-flip">
+                <div class="flip">
+                    <div class="front">
+                        <!-- front content -->
+                        <div class="card">
+                        <img class="card-img-top" src="photos/sofa.jpg" alt="Chairs">
+                        <div class="card-block">
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="back">
+                    <!-- back content -->
+                    <div class="card">
+                      <div class="card-block text-white bg-dark">
+                          <br/><br/>
+                        <h4 class="card-title text-center">Melyssa</h4>
+                        <h6 class="card-subtitle text-muted text-center">Style # 568</h6><br/>
+                      </div>
+                        <div class="card-block text-dark">
+                            <br/>
+                        <p class="card-text text-center">Modern boho chic table that works as side table.</p><br/>
+                        <a href="#" class="btn btn-warning float-right">View in Store</a>
+                      </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-2 col-md-2 mxy-0">
+            <div class="card-flip">
+                <div class="flip">
+                    <div class="front">
+                        <!-- front content -->
+                        <div class="card">
+                        <img class="card-img-top" src="photos/lights.jpg" alt="Chairs">
+                        <div class="card-block">
+                       
+                        </div>
+                    </div>
+                </div>
+                <div class="back">
+                    <!-- back content -->
+                    <div class="card">
+                      <div class="card-block text-white bg-dark">
+                          <br/><br/>
+                        <h4 class="card-title text-center">Kutitap</h4>
+                        <h6 class="card-subtitle text-muted text-center">Style # 93</h6><br/>
+                      </div>
+                        <div class="card-block text-dark">
+                            <br/>
+                        <p class="card-text text-center">Modern boho chic table that works as side table.</p><br/>
+                        <a href="#" class="btn btn-warning float-right">View in Store</a>
+                      </div>
+                    </div>
+                </div>
+                </div>
+            </div>
         </div>
         </div>
+    </div>
+        
+
+
+
         <hr />
 
     <div class="container">
