@@ -4,6 +4,7 @@ $color-pale: #CEC8FF;
 $color-mid: #901CAD;
 $color-dark: black;
 $color-transparent-white: rgba(0, 0, 0, 0.212);
+$color-warning: rgba(211, 157, 10, 0.678)
 
 
 $body-font: "Open Sans", sans-serif;
@@ -55,6 +56,12 @@ header {
     
 }
 
+#navItem {
+background-color: rgba(211, 157, 10, 0.678);
+color: black;
+}
+
+
 .carousel-caption {
     background-color: $color-transparent-white;
 }
@@ -92,7 +99,7 @@ header {
    
   }
   .carousel-item img {
-    max-height: 75vh; 
+    max-height: 88vh; 
     object-fit: cover;
   }
 #miniIconCol{
@@ -135,7 +142,7 @@ header {
 
 }   
 #thumb:hover{
-    box-shadow: 0 0 2px 1px rgba(211, 157, 10, 0.678);
+    box-shadow: 0 0 2px 1px $color-warning
 }
 #bodyRow{
     padding: 0%;
